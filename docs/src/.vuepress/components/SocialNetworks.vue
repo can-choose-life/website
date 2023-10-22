@@ -9,13 +9,14 @@
 </template>
 
 <script>
-
-window.addEventListener('load', () => {
-  document.querySelector('#home-social-networks>img:nth-child(2)').onclick = () => document.location.href = 'https://instagram.com/obiraizhittia/' 
-  document.querySelector('#home-social-networks>img:last-child').onclick   = () => document.location.href = 'https://www.facebook.com/profile.php?id=100092556792731' 
-})
-
-
+  export default {
+    mounted() {
+      window.addEventListener('load', () => {
+        document.querySelector('#home-social-networks>img:nth-child(2)').onclick = () => document.location.href = 'https://instagram.com/obiraizhittia/' 
+        document.querySelector('#home-social-networks>img:last-child').onclick   = () => document.location.href = 'https://www.facebook.com/profile.php?id=100092556792731' 
+      })   
+    }
+  }
 </script>
 
 <style>
