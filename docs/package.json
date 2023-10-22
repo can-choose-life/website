@@ -1,0 +1,19 @@
+{
+  "name": "chooselife",
+  "version": "1.0.0",
+  "description": "Спасіння лише в Христі",
+  "main": "index.js",
+  "authors": {
+    "name": "Olexij",
+    "email": "taras_peace@protonmail.com"
+  },
+  "repository": "/chooselife",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
