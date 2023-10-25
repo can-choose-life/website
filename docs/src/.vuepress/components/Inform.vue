@@ -2,7 +2,7 @@
 
 <div class="flex-container">
   <div class="flex-item inform-text">
-    <h1 class="awsm-font">{{ title }}</h1>
+    <h2 class="awsm-font">{{ title }}</h2>
     <p class="awsm-font">{{ text }}</p>
   </div>
   <div class="flex-item">
@@ -34,11 +34,16 @@ export default {
   margin: 0 auto;
 }
 
-.inform-text > p, h1 {
+.inform-text > p, h2, h1 {
   color: white;
   text-align: center;
+  border: none;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.inform-text > h2 {
+  font-size: 1.9em;
 }
 
 @media screen and (min-width: 720px) {
@@ -50,7 +55,7 @@ export default {
     justify-content: flex-end;
     margin: 0 auto;
   }
-  .inform-text > p, h1 {
+  .inform-text > p, h2 {
     text-align: left;
     margin-right: 0;
   }
