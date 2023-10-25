@@ -57,6 +57,9 @@ export default {
   }
   .inform-text > p, h2 {
     text-align: left;
+    margin-left: 0;
+  }
+  h2 {
     margin-right: 0;
   }
 }
