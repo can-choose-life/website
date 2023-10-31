@@ -26,7 +26,7 @@
   padding-right: 5%;
 }
 
-#donate > h2 {
+#donate > h2, #donate > p {
   color: inherit;
   text-align: center;
 }

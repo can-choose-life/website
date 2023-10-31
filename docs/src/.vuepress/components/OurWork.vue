@@ -30,6 +30,7 @@
 
 #about-us > h1 {
   text-align: center;
+  color: white;
   margin-left: 0;
 }
 

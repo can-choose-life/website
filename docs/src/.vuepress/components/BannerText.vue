@@ -21,7 +21,7 @@ export default {
   margin: 0 auto;
 }
 
-.banner-text > h1, p {
+.banner-text > h1, .banner-text > p {
   text-align: center;
   color: inherit;
   margin-left: 0;

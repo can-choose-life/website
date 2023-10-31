@@ -32,11 +32,11 @@
   }
 }
 
-#contact-form > label, input, textarea, button {
+#contact-form > label, #contact-form > input, #contact-form > textarea, #contact-form > button {
   margin: 10px;
 }
 
-#contact-form > h2, p {
+#contact-form > h2, #contact-form > p {
   color: inherit;
   text-align: center;
 }

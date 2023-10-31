@@ -34,7 +34,7 @@ export default {
   margin: 0 auto;
 }
 
-.inform-text > p, h2, h1 {
+.inform-text > p, .inform-text > h2, .inform-text > h1 {
   color: white;
   text-align: center;
   border: none;
@@ -55,12 +55,9 @@ export default {
     justify-content: flex-end;
     margin: 0 auto;
   }
-  .inform-text > p, h2 {
+  .inform-text > p, .inform-text > h2 {
     text-align: left;
     margin-left: 0;
-  }
-  h2 {
-    margin-right: 0;
   }
 }
 
